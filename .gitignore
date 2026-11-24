@@ -1,0 +1,12 @@
+.DS_Store
+# respaldos y redirecciones locales (en Vercel las maneja vercel.json)
+index.backup-4paneles.html
+espacios.html
+cobertura.html
+en/coverage.html
+# fotos anteriores que ya no se usan
+img/campos-cierre.jpg
+img/frente-carretera.jpg
+img/reserva-territorial.jpg
+img/tienda-ancla.jpg
+img/vialidad-principal.jpg

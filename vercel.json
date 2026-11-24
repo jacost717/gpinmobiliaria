@@ -1,0 +1,8 @@
+{
+  "cleanUrls": false,
+  "redirects": [
+    { "source": "/espacios.html", "destination": "/terrenos.html", "permanent": true },
+    { "source": "/cobertura.html", "destination": "/zonas.html", "permanent": true },
+    { "source": "/en/coverage.html", "destination": "/en/markets.html", "permanent": true }
+  ]
+}

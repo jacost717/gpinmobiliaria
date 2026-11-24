@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact · GP Inmobiliaria</title>
+  <meta name="description" content="Inquire about commercial land availability with GP Inmobiliaria.">
+  <meta name="theme-color" content="#133596">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>WebFont.load({ google: { families: ["Albert Sans:300,400,500,600,700"] } });</script>
+  <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="alternate" hreflang="es-MX" href="../contacto.html">
+  <link rel="alternate" hreflang="en" href="contact.html">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav" data-nav aria-label="Main">
+      <a class="nav__logo" href="index.html" aria-label="GP Inmobiliaria, home">
+        <img src="../img/logo-gp-inmobiliaria.png" alt="GP Inmobiliaria" width="183" height="117">
+      </a>
+      <button class="nav__toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="menu-principal" aria-label="Open menu"><span class="nav__burger" aria-hidden="true"><span></span><span></span></span></button>
+      <ul class="nav__links" id="menu-principal">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="land.html">Land</a></li>
+        <li><a href="markets.html">Markets</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+        <li class="nav__extra"><a href="tel:+528181503600">+52 (81) 8150 3600</a><span class="nav__lang"><a href="../contacto.html" hreflang="es" lang="es">ES</a><span aria-current="true">EN</span></span></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="section wrap section--tight-top page-intro">
+      <p class="eyebrow">Contact</p>
+      <h1>Inquire about&nbsp;availability</h1>
+      <p class="lede">Our sales team will present site options based on your&nbsp;requirements.</p>
+    </section>
+
+    <section class="wrap map-block">
+      <div class="contact-layout">
+        <ul class="contact-meta">
+          <li>
+            <p class="contact-meta__label">Office</p>
+            <address class="contact-meta__value">Av. Zaragoza Sur 1000, piso&nbsp;C1<br>Condominio Acero, Centro<br>64000 Monterrey, N.L., Mexico</address>
+          </li>
+          <li>
+            <p class="contact-meta__label">Phone</p>
+            <p class="contact-meta__value"><a href="tel:+528181503600">+52 (81) 8150 3600</a></p>
+          </li>
+          <li>
+            <p class="contact-meta__label">Email</p>
+            <p class="contact-meta__value"><a href="mailto:contacto@gpi.mx">contacto@gpi.mx</a></p>
+          </li>
+          <li>
+            <p class="contact-meta__label">Hours</p>
+            <p class="contact-meta__value">Monday–Friday, 9:00&nbsp;a.m.–6:30&nbsp;p.m.</p>
+          </li>
+        </ul>
+
+        <form class="form" data-contact-form novalidate>
+          <div class="form__full">
+            <label for="perfil">Profile</label>
+            <select id="perfil" name="perfil" required>
+              <option value="">Select</option>
+              <option>Investor</option>
+              <option>Brand or retail chain</option>
+              <option>Developer</option>
+            </select>
+          </div>
+          <div>
+            <label for="nombre">Name</label>
+            <input id="nombre" name="nombre" type="text" autocomplete="name" required>
+          </div>
+          <div>
+            <label for="empresa">Company or brand</label>
+            <input id="empresa" name="empresa" type="text" autocomplete="organization">
+          </div>
+          <div>
+            <label for="tel">Phone</label>
+            <input id="tel" name="telefono" type="tel" autocomplete="tel" required>
+          </div>
+          <div>
+            <label for="correo">Email</label>
+            <input id="correo" name="correo" type="email" autocomplete="email" required>
+          </div>
+          <div>
+            <label for="zona">Submarket of interest</label>
+            <select id="zona" name="zona" required>
+              <option value="">Select</option>
+              <option>Monterrey</option>
+              <option>Apodaca</option>
+              <option>Cadereyta</option>
+              <option>García</option>
+              <option>Juárez</option>
+              <option>Pesquería</option>
+              <option>No preference</option>
+            </select>
+          </div>
+          <div>
+            <label for="m2">Required site size (m²)</label>
+            <input id="m2" name="superficie_m2" type="text" inputmode="numeric">
+          </div>
+          <div>
+            <label for="uso">Intended use</label>
+            <select id="uso" name="uso">
+              <option value="">Select</option>
+              <option>Grocery &amp; supermarket</option>
+              <option>Convenience</option>
+              <option>Pharmacy</option>
+              <option>Banking</option>
+              <option>Restaurants &amp; QSR</option>
+              <option>Fuel stations</option>
+              <option>Home improvement</option>
+              <option>Services</option>
+              <option>Healthcare</option>
+              <option>Education</option>
+              <option>Land reserve</option>
+            </select>
+          </div>
+          <div>
+            <label for="fecha">Target date</label>
+            <input id="fecha" name="fecha_estimada" type="text" placeholder="Month / year">
+          </div>
+          <div class="form__full">
+            <label for="msg">Message</label>
+            <textarea id="msg" name="mensaje" rows="4"></textarea>
+          </div>
+          <div class="form__full form__check">
+            <input id="aviso" name="aviso_privacidad" type="checkbox" value="si" required>
+            <label for="aviso">I accept the <a href="#aviso">privacy notice</a>.</label>
+          </div>
+          <div class="form__full">
+            <button class="btn btn--brand" type="submit">Submit inquiry</button>
+            <p class="form__status" data-form-status hidden></p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-pad">
+      <div class="site-footer__grid">
+        <div class="site-footer__brand">
+          <a href="index.html" aria-label="GP Inmobiliaria, home">
+            <img class="site-footer__logo" src="../img/logo-gp-inmobiliaria.png" alt="GP Inmobiliaria" width="183" height="117">
+          </a>
+          <p>Grupo GP’s commercial land bank in the Monterrey metro&nbsp;area.</p>
+        </div>
+
+        <nav class="site-footer__col" aria-label="Site">
+          <p class="site-footer__title">Site</p>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="land.html">Land</a></li>
+            <li><a href="markets.html">Markets</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="site-footer__col">
+          <p class="site-footer__title">Markets</p>
+          <ul>
+            <li><a href="markets.html">Monterrey</a></li>
+            <li><a href="markets.html">Apodaca</a></li>
+            <li><a href="markets.html">Cadereyta</a></li>
+            <li><a href="markets.html">García</a></li>
+            <li><a href="markets.html">Juárez</a></li>
+            <li><a href="markets.html">Pesquería</a></li>
+          </ul>
+        </div>
+
+        <div class="site-footer__col">
+          <p class="site-footer__title">Sales office</p>
+          <ul>
+            <li><a href="tel:+528181503600">+52 (81) 8150 3600</a></li>
+            <li><a href="mailto:contacto@gpi.mx">contacto@gpi.mx</a></li>
+            <li class="site-footer__hours">Monday–Friday, 9:00&nbsp;a.m.–6:30&nbsp;p.m.</li>
+            <li>
+              <address>
+                <a href="https://www.google.com/maps/search/?api=1&amp;query=Av.+Zaragoza+Sur+1000+Condominio+Acero+Monterrey" target="_blank" rel="noopener"><span>Av. Zaragoza Sur 1000, piso&nbsp;C1</span><br><span>Condominio Acero, Centro</span><br><span>64000 Monterrey, N.L., Mexico</span></a>
+              </address>
+            </li>
+          </ul>
+        </div>
+
+        <div class="site-footer__col">
+          <p class="site-footer__title">Grupo GP</p>
+          <ul>
+            <li><a href="https://grupogp.com.mx" target="_blank" rel="noopener">Grupo GP</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="site-footer__bottom">
+        <span>© 2026 GP Inmobiliaria</span>
+        <ul class="site-footer__legal">
+          <li><a href="#aviso">Privacy notice</a></li>
+          <li class="lang-switch"><a href="../contacto.html" hreflang="es" lang="es">ES</a><span aria-current="true">EN</span></li>
+          <li><a href="#top" data-to-top>Back to top ↑</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js" defer></script>
+</body>
+</html>
